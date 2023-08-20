@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit&family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
 body {
     margin: 0px;
-    background: linear-gradient(to right, rgb(0, 0, 0), #1F2937);
+    background: linear-gradient(to right, rgb(0, 0, 0), #090909);
 }
 
 * {
@@ -53,24 +53,7 @@ body {
 }
 
 .heading {
-    background-image: url(https://framerusercontent.com/images/2IaeICXvsJApqTXCae1q1dVMVIE.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 0% 0%;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    color: rgb(136, 136, 136);
-    font-size: 80px;
-    font-family: Outfit, sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    text-align: left;
-    letter-spacing: 0px;
-    white-space: normal;
-    line-height: 1;
-    margin: 0px;
-    padding: 0px 0px 10px;
+    color: white;
 }
 
 .project-description {
@@ -320,8 +303,9 @@ body {
 
 .chat-bot-container {
     height: 100vh;
-    width: 100%;
+    width: 75%;
     box-sizing: border-box;
+    padding: 30px;
 }
 
 .chat-bot-container-iframe {}
@@ -486,4 +470,8 @@ body {
 
 .zoom-svg {
     pointer-events: none;
+}
+
+.names {
+    font-size: 22px;
 }
